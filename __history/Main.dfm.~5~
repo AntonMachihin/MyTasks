@@ -1,0 +1,86 @@
+object FMain: TFMain
+  Left = 0
+  Top = 0
+  Caption = #1052#1086#1080' '#1079#1072#1076#1072#1095#1080
+  ClientHeight = 654
+  ClientWidth = 989
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object BNewTask: TButton
+    Left = 816
+    Top = 24
+    Width = 153
+    Height = 41
+    Caption = #1044#1086#1073#1072#1074#1080#1090#1100' '#1079#1072#1076#1072#1095#1091
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnClick = BNewTaskClick
+  end
+  object DBGrid1: TDBGrid
+    Left = 23
+    Top = 128
+    Width = 946
+    Height = 497
+    DataSource = DataSource1
+    TabOrder = 1
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+  object Filter: TEdit
+    Left = 208
+    Top = 24
+    Width = 593
+    Height = 35
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Trebuchet MS'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 264
+    Top = 72
+    Width = 97
+    Height = 34
+    Caption = #1057#1074#1103#1079#1072#1090#1100
+    TabOrder = 3
+  end
+  object ADOConnection1: TADOConnection
+    ConnectionString = 
+      'Provider=MSDASQL.1;Persist Security Info=False;Extended Properti' +
+      'es="Driver=MySQL ODBC 8.0 Unicode Driver;SERVER=localhost;UID=ro' +
+      'ot;DATABASE=mytasks;PORT=3306;COLUMN_SIZE_S32=1"'
+    Provider = 'MSDASQL.1'
+    Left = 32
+    Top = 72
+  end
+  object ADOQuery1: TADOQuery
+    Connection = ADOConnection1
+    Parameters = <>
+    Left = 104
+    Top = 72
+  end
+  object DataSource1: TDataSource
+    DataSet = ADOQuery1
+    Left = 184
+    Top = 72
+  end
+end

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.512,=C:\Users\Пользователь\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.449,=C:\Users\Пользователь\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.208,=C:\Users\Пользователь\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.745,C:\Users\Пользователь\Desktop\Task\Main.pas=C:\Users\Пользователь\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.630,C:\Users\Пользователь\Desktop\Task\USearch.pas=C:\Users\Пользователь\Desktop\Task\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.745,C:\Users\Пользователь\Desktop\Task\Main.dfm=C:\Users\Пользователь\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.995,=C:\Users\Пользователь\Desktop\Task\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.157,C:\Users\Пользователь\Desktop\Task\MyTasks.dproj=C:\Users\Пользователь\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.730,=C:\Users\Пользователь\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.575,C:\Users\Пользователь\Desktop\Task\AddTask.pas=C:\Users\Пользователь\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.575,C:\Users\Пользователь\Desktop\Task\AddTask.dfm=C:\Users\Пользователь\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.630,C:\Users\Пользователь\Desktop\Task\USearch.dfm=C:\Users\Пользователь\Desktop\Task\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
